@@ -1,0 +1,78 @@
+:root{
+    font-family:"Dosis","Open Sans","sans-serif";
+    --rosa:#EE24FF;
+    --azul-escuro:#3F3D56;
+    --sinza-claro:#828282;
+    --branco:white;
+
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--branco);
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+#secao-principal img{
+width: 350px;
+margin-bottom: 0;
+}
+
+#secao-principal{
+    width: 626px;
+    margin: auto;
+}
+
+#secao-principal h1{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#secao-principal>h1>strong{
+    font-family: "Dosis";
+    color: var(--rosa);
+    text-transform: capitalize;
+}
+
+#secao-principal p{
+    font-family: "Open Sans","sans-serif";
+    font-size: 15px;
+    color: var(--sinza-claro);
+    font-weight: 400;
+    margin-bottom: 64px;
+}
+
+hr{
+    width: 391px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.cor-destaque,a{
+    color: var(--azul-escuro);
+    
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.links>a+a{
+    margin-left: 41px;
+    margin-bottom: 40.83px;
+}
+footer img{
+ 
+    width: 1024px;
+    height: 104px;
+}
+
+.links>a:hover{
+    font-size: 18px;
+    font-weight: bold;
+}
